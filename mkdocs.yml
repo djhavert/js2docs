@@ -72,6 +72,9 @@ nav:
     - Architecture and Capabilities of Jetstream2: overview/architecture.md
     - Configuration and specifications: overview/config.md
     - Network configuration and considerations: overview/network.md
+  - Getting Started:
+    - Gettings Access to Jetstream2: tutorial/getting-access.md
+    - Creating Your First Instance: tutorial/first-instance.md
   - Frequently Asked Questions:
     - General FAQs: faq/general-faq.md
     - Troubleshooting: faq/trouble.md
