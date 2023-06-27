@@ -71,7 +71,7 @@ Once your allocation is approved, you should see your title, project ID, and ava
 ### What Will You be Using Your Credits For?
 Congratulations! You now have an active allocation with a bunch of unused *ACCESS credits*. How do you actually use these credits? The next step is to exchange your ACCESS credits with an ACCESS resource. Since you are here, that means you want to use Jetstream2. When you exchange your credits to a Jetstream2 computational resource, they will be converted to Service Units (SUs). Other resources may call their units differently and have different exchange rates. For simplicity, we've aligned our SU value such that ***1 ACCESS Credit = 1 Jetstream2 SU***.
 
-There are three different Jetstream2 resources for which you can exchange credits for SUs, and one which you can exchange credits for storage. This guide will be focusing on the three computational resources. By default, you will have access to 1 TB of storage, which should be more than enough to get started. If you want to learn more about the storage resource, please see [Jetstream2 Storage](https://docs.jetstream-cloud.org/general/resources/#jetstream2-storage){target=_blank}. The three computational resources are:
+There are three different Jetstream2 resources for which you can exchange credits for SUs, and one which you can exchange credits for storage. This guide will be focusing on the three computational resources. By default, you will have access to 1 TB of storage, which should be more than enough to get started. If you want to learn more about the storage resource, please see [Jetstream2 Storage](../general/resources.md#jetstream2-storage){target=_blank}. The three computational resources are:
 
 *   ***Jetstream2*** (CPU only)
 *   ***Jetstream2 Large Memory***
@@ -101,7 +101,7 @@ Most researchers will be able to satisfy their needs using the CPU only resource
 
 ## Add Users
 
-If you are the only one who will be accessing this project, then you can skip this step and move on to [Logging in to Jetstream2]().
+If you are the only one who will be accessing this project, then you can skip this step and move on to [Creating your First Instance](../tutorial/first-instance.md).
 
 However, if you are part of a collaboration, you will need to add users to each resource they need access to. This means that if you are using Jetstream2's CPU, GPU, and Large Memory resources, you would need to add users to all three resources.
 
