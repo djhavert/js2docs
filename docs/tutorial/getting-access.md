@@ -1,8 +1,7 @@
 # Getting Access to Jetstream2
 
 ## Outline
-- [Getting Access to Jetstream2](#getting-access-to-jetstream2)
-  - [Outline](#outline)
+
   - [Terminology](#terminology)
   - [Overview](#overview)
   - [Create an ACCESS Account](#create-an-access-account)
@@ -73,6 +72,7 @@ Once your allocation is approved, you should see your title, project ID, and ava
 Congratulations! You now have an active allocation with a bunch of unused *ACCESS credits*. How do you actually use these credits? The next step is to exchange your ACCESS credits with an ACCESS resource. Since you are here, that means you want to use Jetstream2. When you exchange your credits to a Jetstream2 computational resource, they will be converted to Service Units (SUs). Other resources may call their units differently and have different exchange rates. For simplicity, we've aligned our SU value such that ***1 ACCESS Credit = 1 Jetstream2 SU***.
 
 There are three different Jetstream2 resources for which you can exchange credits for SUs, and one which you can exchange credits for storage. This guide will be focusing on the three computational resources. By default, you will have access to 1 TB of storage, which should be more than enough to get started. If you want to learn more about the storage resource, please see [Jetstream2 Storage](https://docs.jetstream-cloud.org/general/resources/#jetstream2-storage){target=_blank}. The three computational resources are:
+
 *   ***Jetstream2*** (CPU only)
 *   ***Jetstream2 Large Memory***
 *   ***Jetstream2 GPU***
@@ -89,15 +89,15 @@ Most researchers will be able to satisfy their needs using the CPU only resource
 
 <center>
 
-![access-exchange-credits1.png](images/../../images/access-exchange-credits1.png)
+<img src="/images/access-exchange-credits1.png" alt="exchange credits dropdown" width="250"/>
 
 </center>
 
-2.  Select *Indiana Jetstream2* from the drop down list and then click *Add Resource*. A new row should appear.
-3.  Choose your *Desired Balanced*. If you just want to try out Jetstream2, 10,000 is a good amount to get your feet wet. This would let you run an **m3.quad** (8 CPU cores and 32 GB of RAM), similar to a higher-end laptop or research workstation, for 1250 hours, or about 50 days. If you find that Jetstream2 is the right resource for you, just request more SUs later. 
-4.  Enter a comment in the field provided briefly explaining your request and how you intend to use the resource. This is useful for us to see whether the resource you picked is right for you. We rarely deny requests, and if we do it's because we think you would be better off spending your ACCESS credits elsewhere.
-5.  Click Submit! Now you just have to wait for us to approve the exchange. We try to be very diligent about approving requests quickly. You will receive an email as soon as we approve the request, and another email after the system has processed the request. The whole process usually takes between 1-2 business days.
-6.  In the meantime, make sure all of your collaborators (anyone else that you want to add to the project) have made an ACCESS account. The next step involves adding them to your project and to your resource. You can only add users that are registered with ACCESS
+1.  Select *Indiana Jetstream2* from the drop down list and then click *Add Resource*. A new row should appear.
+2.  Choose your *Desired Balanced*. If you just want to try out Jetstream2, 10,000 is a good amount to get your feet wet. This would let you run an **m3.quad** (8 CPU cores and 32 GB of RAM), similar to a higher-end laptop or research workstation, for 1250 hours, or about 50 days. If you find that Jetstream2 is the right resource for you, just request more SUs later. 
+3.  Enter a comment in the field provided briefly explaining your request and how you intend to use the resource. This is useful for us to see whether the resource you picked is right for you. We rarely deny requests, and if we do it's because we think you would be better off spending your ACCESS credits elsewhere.
+4.  Click Submit! Now you just have to wait for us to approve the exchange. We try to be very diligent about approving requests quickly. You will receive an email as soon as we approve the request, and another email after the system has processed the request. The whole process usually takes between 1-2 business days.
+5.  In the meantime, make sure all of your collaborators (anyone else that you want to add to the project) have made an ACCESS account. The next step involves adding them to your project and to your resource. You can only add users that are registered with ACCESS.
 
 ## Add Users
 
@@ -110,10 +110,10 @@ Start by going to the [User Management](https://allocations.access-ci.org/user_m
 ### Allocation Managers (Optional)
 By default, only the PI will be an *allocation manager*. If you wish to delegate management to somebody else in your project, you can add them as an allocation manager. Allocation Managers can submit management requests (extensions, supplements, adding users, etc.) in support of the project on your behalf. 
 
-To add an allocation manager, click **+ADD ALLOCATION MANAGER**, then search for the users (by their ACCESS ID) you want to add. You can add multiple users at once. When you are done selecting all the users you want, click **SAVE CHANGES**.
+To add an allocation manager, click "**+ADD ALLOCATION MANAGER**", then search for the users (by their ACCESS ID) you want to add. You can add multiple users at once. When you are done selecting all the users you want, click "**SAVE CHANGES**".
 
 ### Adding Users to a Resource
-To add a user to your resource(s), click **+ADD USERS TO RESOURCES**, then search for the users (by their ACCESS ID) you want to add. You can add multiple users at once. When you are done selecting all the users you want, uncheck any resources that you *don't* want those users to get access to. Finally, click **SAVE CHANGES**.
+To add a user to your resource(s), click "**+ADD USERS TO RESOURCES**", then search for the users (by their ACCESS ID) you want to add. You can add multiple users at once. When you are done selecting all the users you want, uncheck any resources that you *don't* want those users to get access to. Finally, click "**SAVE CHANGES**".
 
 If you are following along with this guide, then you will only have one resource that you can add users to, *Indiana Jetstream2*. If at a later date you decide to add more resources, you will have to repeat this step to add users to those resources. Users will **not** automatically get access to new resources you exchange credits for.
 
