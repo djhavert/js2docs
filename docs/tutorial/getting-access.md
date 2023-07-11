@@ -89,7 +89,7 @@ Most researchers will be able to satisfy their needs using the CPU only resource
 
 <center>
 
-<img src="/images/access-exchange-credits1.png" alt="exchange credits dropdown" width="250"/>
+<img src="/docs/images/access-exchange-credits1.png" alt="exchange credits dropdown" width="250"/>
 
 </center>
 
