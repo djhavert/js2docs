@@ -2,7 +2,7 @@ site_name: 'Jetstream2 Documentation'
 site_url: https://docs.jetstream-cloud.org/
 site_description: "Jetstream2 Documentation"
 repo_url: https://github.com/jetstream-cloud/js2docs
-copyright: Copyright © 2022 The Trustees of Indiana University
+copyright: Copyright © 2023 The Trustees of Indiana University
 #site_favicon: 'images/Jetstream2_icon_64px.jpg'
 
 theme:
@@ -117,6 +117,7 @@ nav:
       - Storage Under Exosphere: ui/exo/storage.md
       - Push-button clusters: ui/exo/push-button-cluster.md
       - Binder Workflows: ui/exo/binder.md
+      - GPU-Accelerated Web Desktops: ui/exo/gpu-desktop.md
       - Exosphere Troubleshooting: ui/exo/troubleshooting.md
     - Horizon:
       - Overview: ui/horizon/intro.md
@@ -148,12 +149,22 @@ nav:
       - Overview: ui/cacao/overview.md
       - What is CACAO: ui/cacao/intro.md
       - Glossary: ui/cacao/glossary.md
-      - UI Basics: ui/cacao/ui_basics.md
-      - Getting Started For New Cacao Users: ui/cacao/getting_started.md
-      - Credentials: ui/cacao/credentials.md
-      - Deployments: ui/cacao/deployments.md
-      - Templates: ui/cacao/templates.md
+      - The User Interface:
+        - Basics: ui/cacao/ui_basics.md
+        - Credentials: ui/cacao/credentials.md
+        - Deployments: ui/cacao/deployments.md
+        - Templates: ui/cacao/templates.md
       - Logging Into An Instance: ui/cacao/login.md
+      - Getting Started For New Cacao Users: ui/cacao/getting_started.md
+      - Tutorials:
+        - Intro: ui/cacao/tutorials.md
+        - Deploying one or more instances: ui/cacao/deployment_single_image.md
+        - Deploying JupyterHub: ui/cacao/deployment_jupyterhub.md
+        - Deploying Kubernetes: ui/cacao/deployment_kubernetes.md
+        - Deploying VMs for a workshop: ui/cacao/deployment_vms_for_workshops.md
+        - Deploying DADI (a community template): ui/cacao/deployment_dadi.md
+      - Advanced Topics:
+        - Importing a Terraform Template: ui/cacao/import_terraform_template.md
   - General VM Operations:
     - Security:
       - Firewalls: general/firewalls.md
@@ -163,7 +174,9 @@ nav:
         - Manila: general/manila.md
         - Using Manila Share on a VM: general/manilaVM.md
         - Configuring a Ceph FUSE client: general/manilaVM-FUSE.md
-      - Object Store: general/object.md
+      - Object Store:
+        - Object Store: general/object.md
+        - Configuring Object Storage for AWS S3 Apps: general/s3.md
       - File Transfer: general/filetransfer.md
     - Maintenance and Administration:
       - Add User to a VM: general/adduser.md
